@@ -5,7 +5,7 @@ from envaya.models import *
 class BasicRuleForm(ModelForm):
     class Meta:
         model = BasicRule
-                fields = '__all__'
+        fields = '__all__'
         """widgets = {
             'in_text' : Textarea(attrs={'cols': 10, 'rows': 20}),
             'out_text' : Textarea(attrs={'cols': 50, 'rows': 20}),
